@@ -1,0 +1,23 @@
+li
+{
+	list-style: none;
+	display: inline-block;
+	font-family:"Gill Sans MT";
+	background-color:beige;
+	margin-right:1px;
+	font-size: 20px;
+	text-align: center;
+	border-right: 1px solid;
+}
+
+h1
+{
+	background-color: lightpink;
+	font-family: "Gill Sans MT";
+	text-align: center;
+	font-size: 100px; 
+}
+a{
+	text-decoration: none;
+	color:black;
+}
