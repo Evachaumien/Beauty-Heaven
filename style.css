@@ -3,11 +3,11 @@ li
 	list-style: none;
 	display: inline-block;
 	font-family:"Gill Sans MT";
-	background-color:beige;
-	margin-right:1px;
+	background-color:white;
+	margin-right:115px;
+	margin-left:105px;
 	font-size: 20px;
 	text-align: center;
-	border-right: 1px solid;
 }
 
 h1
