@@ -12,11 +12,20 @@ li
 
 h1
 {
+	background-color: #E8CEBB;
+	font-family: "Open Sans Ms";
+	text-align: left;
+	font-size: 20px; 
+}
+
+h2
+{
 	background-color: lightpink;
-	font-family: "Gill Sans MT";
+	font-family: "Open Sans Ms";
 	text-align: center;
 	font-size: 100px; 
 }
+
 a{
 	text-decoration: none;
 	color:black;
