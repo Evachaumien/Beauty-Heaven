@@ -7,7 +7,8 @@
     </head>
 
     <body>
-        <h1>Beauty Heaven</h1>
+        <h1> Institut de beauté - +33 (0)4 93 89 99 17 29 - <a href="mailto:celia.belloir.bba@edhec.com"> contact@beautyheaven.com </a> </h1>
+            <h2>Beauty Heaven</h2>
         <nav>
        <ul>
 		   <li><a href="NOS-SOINS.html">NOS SOINS</a></li>
