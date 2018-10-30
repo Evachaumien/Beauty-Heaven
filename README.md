@@ -21,6 +21,7 @@
 	
         <nav>
        <ul>
+      		 <li><a href="ACCUEIL.html">ACCUEIL</a></li>
 		   <li><a href="NOS-SOINS.html">NOS SOINS</a></li>
 		   <li><a href="NOS-PRODUITS.html">NOS PRODUITS</a></li>
 		   <li><a href="A-PROPOS.html">A PROPOS</a></li>
