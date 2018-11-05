@@ -22,7 +22,7 @@
         </section>    
 
         <header id="tab">
-            <img id="logo" src="img/logo.png"/>
+            <a href="ACCUEIL.html"><img id="logo" src="img/logo.png"/></a>
         </header>
 
         <nav>
@@ -82,16 +82,15 @@
                         <br/>
                         Nous vous répondrons dans les plus brefs délais.
                     </p>
-<!-- eva.chaumien.bba@edhec.com -->
-                    <form id="contact" action="mailto:etienne.passot@epitech.eu" method="post"><br/><br/>
-                        <input class="input-contact input-spe" name="Prénom" placeholder="Votre Prénom"><br/><br/>
-                        <input class="input-contact input-spe" name="Nom" placeholder="Votre Nom"><br/><br/>
-                        <input class="input-contact input-spe" name="E-mail" placeholder="Votre E-mail"><br/><br/>
-                        <input class="input-contact input-spe" name="Téléphone" placeholder="Votre Téléphone"><br/><br/>
-                        <input class="input-contact input-spe" name="Code_Postal" placeholder="Votre Code Postal"><br/><br/>
-                        <input class="input-contact input-spe" name="Ville" placeholder="Votre Ville"><br/><br/>
-                        <input class="input-contact input-spe" name="Sujet" placeholder="Sujet"><br/><br/>
-                        <textarea class="input-contact input-msg" cols="35" rows="10" name="Message" placeholder="Votre Message"></textarea><br/><br/>        
+                    <form id="contact" action="mailto:eva.chaumien.bba@edhec.com" method="GET"><br/><br/>
+                        <input id="body" type="text" class="input-contact input-spe" name="prenom" placeholder="Votre Prénom"><br/><br/>
+                        <input id="lastname" type="text" class="input-contact input-spe" name="Nom" placeholder="Votre Nom"><br/><br/>
+                        <input id="from" type="text" class="input-contact input-spe" name="E-mail" placeholder="Votre E-mail"><br/><br/>
+                        <input id="phone" type="text" class="input-contact input-spe" name="Téléphone" placeholder="Votre Téléphone"><br/><br/>
+                        <input id="postal" type="text" class="input-contact input-spe" name="Code_Postal" placeholder="Votre Code Postal"><br/><br/>
+                        <input id="city" type="text" class="input-contact input-spe" name="Ville" placeholder="Votre Ville"><br/><br/>
+                        <input id="subject" type="text" class="input-contact input-spe" name="subject" placeholder="Sujet"><br/><br/>
+                        <textarea id="body" type="text" class="input-contact input-msg" cols="35" rows="10" name="body" placeholder="Votre Message"></textarea><br/><br/>        
                         <button name="Reset" value="Annuler" type="reset" class="contact-button">Réinitialiser</button>
                         <button name="OK" value="Valider" type="submit" class="contact-button">Envoyer</button>
                 
