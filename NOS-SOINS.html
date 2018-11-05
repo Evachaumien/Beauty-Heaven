@@ -2,36 +2,189 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/soins.css" />
+        <link rel="stylesheet" href="css/popup.css" />
         <title>Beauty Heaven</title>
-
-        <style>
-
-</style>
     </head>
 
     <body>
-    
-      <h1> 
-      Institut de beauté - +33 (0)4 93 89 99 17 29 - <a href="mailto:celia.belloir.bba@edhec.com"> contact@beautyheaven.com </a> 
-            <a href="https://www.facebook.com/"><img class="right" src="facebook_blanc.png" alt="logo facebook"/></a>
-            <a href="https://www.instagram.com/"><img class="right" src="logo-Instagram.png" alt"logo Instagram"/></a>
 
-            </h1>
+        <section id="header-info">
+            <div class="container boxes">
+                <p class="header-text">Institut de beauté - +33 (0)4 93 89 99 17 29 - <a class="box header-text" href="mailto:celia.belloir.bba@edhec.com"> contact@beautyheaven.com</a></p>
+                <div class="header-icon">
+                    <p>
+                        <a href="https://www.instagram.com/"><img class="icon" src="img/logo-Instagram.png" alt="logo Instagram"/></a>        
+                        <a href="https://www.facebook.com/"><img class="icon" src="img/facebook_blanc.png" alt="logo facebook"/></a>
+                    </p>
+                </div>
+            </div>
+        </section>    
 
- <center>
-        <img src="logo.png" style= "margin-left: 130px; margin-bottom:20px; margin-top: 25px;width: 300px; height: 150px;">
-        <img class="right" src="iconaccount.png" style= "width: 20px; height:20px; margin-top: 5em; margin-right: 2em;" alt="My account"/>
-        <img class="right" src="carticon.png" style="width: 20px; height:20px; margin-top: 5em; margin-right: 2em;"alt="My cart"/>
-         <img class="right" src="searchicon.png" style="width: 20px; height:20px; margin-top: 5em; margin-right: 2em;"alt="search"/>
-</center>
-    
+        <header id="tab">
+            <img id="logo" src="img/logo.png"/>
+        </header>
+
         <nav>
-       <ul>
-             <li><a href="ACCUEIL.html">ACCUEIL</a></li>
-           <li><a href="NOS-SOINS.html">NOS SOINS</a></li>
-           <li><a href="NOS-PRODUITS.html">NOS PRODUITS</a></li>
-           <li><a href="A-PROPOS.html">A PROPOS</a></li>
-           <li><a href="CONTACTS.html">CONTACT</a></li>
-       </ul>
+            <ul class="navbar">
+                <li class="navbar-item"><a href="ACCUEIL.html" class="grey">ACCUEIL</a></li>
+                <li class="navbar-item"><a href="NOS-SOINS.html" class="grey">NOS SOINS</a></li>
+                <li class="navbar-item"><a href="NOS-PRODUITS.html" class="grey">NOS PRODUITS</a></li>
+                <li class="navbar-item"><a href="A-PROPOS.html" class="grey">A PROPOS</a></li>
+                <li class="navbar-item"><a href="CONTACTS.html" class="grey">CONTACT</a></li>
+                <li class="navbar-item">
+                    <div id="navbar-item-user">
+                        <img class="icon" src="img/iconaccount.png" alt="My account"/>
+                        <img class="icon" src="img/carticon.png" alt="My cart"/>
+                        <img class="icon" src="img/searchicon.png" alt="search"/>        
+                    </div>
+                </li>
+            </ul>
         </nav>
+       
+        <section class="streamer">
+            NOS SOINS
+        </section>
+
+        <br/>
+        <br/>
+        <br/>
+        <section class="container">
+            <div class="wrapper">
+                <div class="content-1">
+                    <img class="content-img-soins" src="img/soins.jpeg"/>
+                </div>
+                <div class="content-2">
+                        <div class="content-text">
+                            <h3>SOINS DU VISAGE</h3>
+                            <p class="content-text-no-important text-20">
+                                De quibus tres video sententias ferri, quarum nullam probo, unam, ut eodem modo erga amicum adfecti simus.
+                            </p>
+                            <br/>
+                            <div style="text-align: center;">
+                                <a href="#visage" class="content-button-soins">EN SAVOIR PLUS</a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <br/>
+        <br/>
+        <section class="container">
+            <div class="wrapper">
+                <div class="content-2">
+                    <div class="content-text">
+                        <h3>SOINS DU CORPS</h3>
+                        <p class="content-text-no-important text-20">
+                                De quibus tres video sententias ferri, quarum nullam probo, unam, ut eodem modo erga amicum adfecti simus.
+                        </p>
+                        <br/>
+                        <div style="text-align: center;">
+                            <a href="#corps" class="content-button-soins">EN SAVOIR PLUS</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-1">
+                    <img class="content-img-soins" src="img/produits.jpeg"/>
+                </div>
+            </div>
+            
+        </section>
+        <br/>
+        <br/>
+        <section class="container">
+            <div class="wrapper">
+                <div class="content-1">
+                    <img class="content-img-soins" src="img/soins.jpeg"/>
+                </div>
+                <div class="content-2">
+                        <div class="content-text">
+                            <h3>BEAUTE DES PIEDS ET DES MAINS</h3>
+                            <p class="content-text-no-important text-20">
+                                De quibus tres video sententias ferri, quarum nullam probo, unam, ut eodem modo erga amicum adfecti simus.
+                            </p>
+                            <br/>
+                            <div style="text-align: center;">
+                                <a href="#pieds" class="content-button-soins">EN SAVOIR PLUS</a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <br/>
+        <br/>
+        <section class="container">
+            <div class="wrapper">
+                <div class="content-2">
+                    <div class="content-text">
+                        <h3>MAQUILLAGES</h3>
+                        <p class="content-text-no-important text-20">
+                            De quibus tres video sententias ferri, quarum nullam probo, unam, ut eodem modo erga amicum adfecti simus.
+                        </p>
+                        <br/>
+                        <div style="text-align: center;">
+                            <a href="#maquillages" class="content-button-soins">EN SAVOIR PLUS</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-1">
+                    <img class="content-img-soins" src="img/produits.jpeg"/>
+                </div>
+            </div>
+            
+        </section>
+        <br/>
+        <br/>
+
+        <footer>
+            <p class="footer-text">All rights reserved - Beauty Heaven © 2018 </p>
+        </footer>
+    </body>
+
+    <a id="visage" href="#" class="popup"></a>
+    <div class="popup">
+        <div class="popup-content">
+            <h4>Soins du Visage</h4>
+            <p>
+                De quibus tres video sententias ferri, quarum nullam probo, unam, ut eodem modo erga amicum adfecti simus.
+            </p>        
+        </div>
+    </div>
+    
+    <a id="corps" href="#" class="popup"></a>
+    <div class="popup">
+        <div class="popup-content">
+            <h3>Soins du corps</h3>
+        <p>
+            De quibus tres video sententias ferri, quarum nullam probo, unam, ut eodem modo erga amicum adfecti simus.
+        </p>        
+    </div>
+    
+    <a id="pieds" href="#" class="popup"></a>
+    <div class="popup">
+        <div class="popup-content">
+            <h3>Beauté des pieds et des mains</h3>
+            <p>
+                De quibus tres video sententias ferri, quarum nullam probo, unam, ut eodem modo erga amicum adfecti simus.
+            </p>        
+        </div>
+    </div>
+    
+    <a id="maquillages" href="#" class="popup"></a>
+    <div class="popup">
+        <div class="popup-content">
+            <h3>Maquillages</h3>
+            <p>
+                De quibus tres video sententias ferri, quarum nullam probo, unam, ut eodem modo erga amicum adfecti simus.
+            </p>        
+        </div>
+    </div>
+
+
+    <br/>
+    <br/>
+    <footer>
+        <p class="footer-text">All rights reserved - Beauty Heaven © 2018 </p>
+    </footer>
+</html>

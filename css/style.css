@@ -131,10 +131,6 @@ a {
 	flex: 1;
 }
 
-.debug {
-	border: 1px solid red;
-}
-
 .content-img {
 	width: 100%;
 }
@@ -183,6 +179,16 @@ footer {
 	color: white;
 	font-size: 20px;
 	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.streamer {
+	background-color: #ffd5ec;
+	font-size: 30px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
 }
 
 /*

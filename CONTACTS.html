@@ -2,63 +2,111 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/contact.css" />
         <title>Beauty Heaven</title>
-
-        <style>
-
-</style>
     </head>
 
     <body>
-    
-      <h1> 
-      Institut de beauté - +33 (0)4 93 89 99 17 29 - <a href="mailto:celia.belloir.bba@edhec.com"> contact@beautyheaven.com </a> 
-            <a href="https://www.facebook.com/"><img class="right" src="facebook_blanc.png" alt="logo facebook"/></a>
-            <a href="https://www.instagram.com/"><img class="right" src="logo-Instagram.png" alt"logo Instagram"/></a>
 
-            </h1>
+        <section id="header-info">
+            <div class="container boxes">
+                <p class="header-text">Institut de beauté - +33 (0)4 93 89 99 17 29 - <a class="box header-text" href="mailto:celia.belloir.bba@edhec.com"> contact@beautyheaven.com</a></p>
+                <div class="header-icon">
+                    <p>
+                        <a href="https://www.instagram.com/"><img class="icon" src="img/logo-Instagram.png" alt="logo Instagram"/></a>        
+                        <a href="https://www.facebook.com/"><img class="icon" src="img/facebook_blanc.png" alt="logo facebook"/></a>
+                    </p>
+                </div>
+            </div>
+        </section>    
 
- <center>
-        <img src="logo.png" style= "margin-left: 130px; margin-bottom:20px; margin-top: 25px;width: 300px; height: 150px;">
-        <img class="right" src="iconaccount.png" style= "width: 20px; height:20px; margin-top: 5em; margin-right: 2em;" alt="My account"/>
-        <img class="right" src="carticon.png" style="width: 20px; height:20px; margin-top: 5em; margin-right: 2em;"alt="My cart"/>
-         <img class="right" src="searchicon.png" style="width: 20px; height:20px; margin-top: 5em; margin-right: 2em;"alt="search"/>
-</center>
-    
+        <header id="tab">
+            <img id="logo" src="img/logo.png"/>
+        </header>
+
         <nav>
-       <ul>
-             <li><a href="ACCUEIL.html">ACCUEIL</a></li>
-           <li><a href="NOS-SOINS.html">NOS SOINS</a></li>
-           <li><a href="NOS-PRODUITS.html">NOS PRODUITS</a></li>
-           <li><a href="A-PROPOS.html">A PROPOS</a></li>
-           <li><a href="CONTACTS.html">CONTACT</a></li>
-       </ul>
+            <ul class="navbar">
+                <li class="navbar-item"><a href="ACCUEIL.html" class="grey">ACCUEIL</a></li>
+                <li class="navbar-item"><a href="NOS-SOINS.html" class="grey">NOS SOINS</a></li>
+                <li class="navbar-item"><a href="NOS-PRODUITS.html" class="grey">NOS PRODUITS</a></li>
+                <li class="navbar-item"><a href="A-PROPOS.html" class="grey">A PROPOS</a></li>
+                <li class="navbar-item"><a href="CONTACTS.html" class="grey">CONTACT</a></li>
+                <li class="navbar-item">
+                    <div id="navbar-item-user">
+                        <img class="icon" src="img/iconaccount.png" alt="My account"/>
+                        <img class="icon" src="img/carticon.png" alt="My cart"/>
+                        <img class="icon" src="img/searchicon.png" alt="search"/>        
+                    </div>
+                </li>
+            </ul>
         </nav>
+       
+        <section class="streamer">
+            CONTACT
+        </section>
 
-	<form <form action="mailto:eva.chaumien.bba@edhec.com"><method="post"action="/CONTACT-CONFIRMATION.php"name="Contact"><br/>
-		<p>Votre Prénom:</p>
-		<textarea cols="35" rows="1" name="Prénom"></textarea><br/>
-		<p>Votre Nom:</p>
-		<textarea cols="35" rows="1" name="Nom"></textarea><br/>
-		<p>Votre E-mail:</p>
-		<textarea cols="35" rows="1" name="E-mail"></textarea><br/>
-		<p>Votre Téléphone:</p>
-		<textarea cols="35" rows="1" name="Téléphone"></textarea><br/>
-		<p>Votre Code Postal:</p>
-		<textarea cols="35" rows="1" name="Code_Postal"></textarea><br/>
-		<p>Votre Ville:</p>
-		<textarea cols="35" rows="1" name="Ville"></textarea><br/>
-		<p>Sujet:</p>
-		<textarea cols="35" rows="1" name="Sujet"></textarea><br/>
-		<p>Votre Message:</p>
-		<textarea cols="35" rows="10" name="Message"></textarea><br/>
-		<button name="OK" value="Valider" type="submit" id="envoyercontact">Envoyer</button>
-		<button name="Reset" value="Annuler" type="reset" id="resetcontact">Réinitialiser</button>
+        <br/><br/>
+        <br/><br/>
+        <br/><br/>
+        <br/><br/>
 
-		<iframe style="border:0"; src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2890.258222839013!2d7.11914131535782!3d43.58033747912388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cdd56f3c1307e9%3A0x76cf047f98e46692!2sPlace+G%C3%A9n%C3%A9ral+de+Gaulle%2C+06600+Antibes!5e0!3m2!1sfr!2sfr!4v1540927712445" width="600" height="450" frameborder="0" allowfullscreen></iframe>
+        <section class="">
+            <div class="wrapper">
+                <div class="content-1 content-contact">
+                    <img class="content-img-contact" src="img/logo.png"/>
 
-		   </body>
+                    <p class="content-text-important">
+                        Siège Social
+                    </p>
+                    <p class="content-text-no-important">
+                        Place Général de Gaulle
+                        <br/>
+                        06600 Antibe, France
+                        <br/>
+                        <br/>
+                    </p>
+                    <p class="content-text-no-important contact-text">
+                        Tél : +33 (0)4 93 99 17 29
+                        <br/>
+                        <br/>                    
+                        E-mail: contact@beautyheaven.com
+                        <br/><br/>
+                        <br/><br/>
+                    </p>
+                    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2890.258222839013!2d7.11914131535782!3d43.58033747912388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cdd56f3c1307e9%3A0x76cf047f98e46692!2sPlace+G%C3%A9n%C3%A9ral+de+Gaulle%2C+06600+Antibes!5e0!3m2!1sfr!2sfr!4v1540927712445" width="600" height="450" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="container-contact content-2">
+                    <p class="content-contact content-text-no-important">
+                        Si vous ne trouvez pas votre réponse en ligne, n'hesitez pas à remplir les<br/> champs suivant et à nous écrire un message personnel.
+                        <br/>
+                        Nous vous répondrons dans les plus brefs délais.
+                    </p>
+<!-- eva.chaumien.bba@edhec.com -->
+                    <form id="contact" action="mailto:etienne.passot@epitech.eu" method="post"><br/><br/>
+                        <input class="input-contact input-spe" name="Prénom" placeholder="Votre Prénom"><br/><br/>
+                        <input class="input-contact input-spe" name="Nom" placeholder="Votre Nom"><br/><br/>
+                        <input class="input-contact input-spe" name="E-mail" placeholder="Votre E-mail"><br/><br/>
+                        <input class="input-contact input-spe" name="Téléphone" placeholder="Votre Téléphone"><br/><br/>
+                        <input class="input-contact input-spe" name="Code_Postal" placeholder="Votre Code Postal"><br/><br/>
+                        <input class="input-contact input-spe" name="Ville" placeholder="Votre Ville"><br/><br/>
+                        <input class="input-contact input-spe" name="Sujet" placeholder="Sujet"><br/><br/>
+                        <textarea class="input-contact input-msg" cols="35" rows="10" name="Message" placeholder="Votre Message"></textarea><br/><br/>        
+                        <button name="Reset" value="Annuler" type="reset" class="contact-button">Réinitialiser</button>
+                        <button name="OK" value="Valider" type="submit" class="contact-button">Envoyer</button>
+                
+                    </form>
+                
+                </div>
+            </div>
+        </section>
+    
+        <br/>
+        <br/>
+        <footer>
+            <p class="footer-text">All rights reserved - Beauty Heaven © 2018 </p>
+        </footer>
+	</body>
 </html>
 
 
